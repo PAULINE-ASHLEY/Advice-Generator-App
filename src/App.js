@@ -5,6 +5,17 @@ import divider from './divider.svg';
 import dice from './dice.svg';
 
 function App() {
+  // const [Advices, setAdvices] = useState([]);
+
+  // useEffect(() => {
+  //   axios
+  //     .get('https://api.adviceslip.com/advice')
+  //     .then((res) => {
+  //       setAdvices(res.data.data);
+  //     })
+  //     .catch((error) => console.log(error));
+  // }, []);
+
   const Advices = [
     {
       id: '117',
